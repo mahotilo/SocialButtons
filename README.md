@@ -40,6 +40,7 @@ and
 ## Demo
 ### Buttons on the page
 ![image](demo/site1.png)
+
 ![image](demo/site2.png)
 
 ### Admin settings page
