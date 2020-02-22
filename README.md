@@ -3,8 +3,7 @@
 ## About
 Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.
 
-Based on [Sharingbuttons.io](https://sharingbuttons.io)
-Icons by [Streamline](http://streamlineicons.com/).
+Based on [Sharingbuttons.io](https://sharingbuttons.io). Icons by [Streamline](http://streamlineicons.com/).
 
 ## Features
 * SVG icons
