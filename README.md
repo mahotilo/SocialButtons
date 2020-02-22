@@ -4,6 +4,29 @@
 Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.
 Based on [Sharingbuttons.io](https://sharingbuttons.io)
 
+## Features
+* SVG icons
+* custom icon size
+* 4 icon styles (frame, solid, circle, solid in circle)
+* 2 button styles (sole icon, icon with a name)
+* selectable and sorbable icons set.
+
+## Available Networks
+* Facebook
+* Twitter
+* Telegram
+* WhatsApp
+* Pinterest
+* Tumblr
+* LinkedIn
+* Reddit
+* XING
+
+and
+* E-Mail
+ 
+
+
 ## See also 
 * [Typesetter Home](http://www.typesettercms.com)
 * [Typesetter on GitHub](https://github.com/Typesetter/Typesetter)
@@ -23,24 +46,9 @@ Based on [Sharingbuttons.io](https://sharingbuttons.io)
 3. Install using Typesetter's Admin Toolbox &rarr; Plugins &rarr; Manage &rarr; Available &rarr; SocialButtons
 
 
-## Available Networks
-* Facebook
-* Twitter
-* Telegram
-* WhatsApp
-* Pinterest
-* Tumblr
-* LinkedIn
-* Reddit
-* XING
-
-and
-* E-Mail
- 
 ## Demo
 ### Buttons on the page
 ![image](demo/site1.png)
-
 ![image](demo/site2.png)
 
 ### Admin settings page
