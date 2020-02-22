@@ -28,22 +28,27 @@ class SocialButtons{
 		$HTML = '
 		<style>
 			.SocialButtons {
-				margin: 1rem;
+				text-align: center;
+				display: table;
 			}
-			.resp-sharing-button__icon {
-				vertical-align: middle;
-			}	
-			.resp-sharing-button__icon svg {
+			.SocialButtons .resp-sharing-button__icon svg {
 				width: '.$height.';
 				height: '.$height.';
 			}	
-			.resp-sharing-button {
-				padding: 0.4em;
+			.SocialButtons .resp-sharing-button--small {
+				line-height: normal;
+				padding: calc( '.$height.' * 0.2);
 			}
-			.resp-sharing-button__link {
-				margin: .1em;
+			.SocialButtons .resp-sharing-button--medium {
+				padding: 0.5em;
+				line-height: '.$height.';
+				font-size: calc( '.$height.' * 0.7);
+			}
+			.SocialButtons .resp-sharing-button__link {
+				margin: calc( '.$height.' * 0.1);
+				color: #fff;
 			}	
-			.resp-sharing-button__link:hover {
+			.SocialButtons .resp-sharing-button__link:hover {
 				text-decoration: none;
 				color: #fff;
 			}	
