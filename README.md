@@ -12,7 +12,7 @@ Based on [Sharingbuttons.io](https://sharingbuttons.io)
 * selectable and sorbable icons set.
 
 
-## Available Social
+## Available Socials
 * Facebook
 * Twitter
 * Telegram
