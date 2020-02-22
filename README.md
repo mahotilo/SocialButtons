@@ -46,8 +46,7 @@ Based on [Sharingbuttons.io](https://sharingbuttons.io)
 
 ## Demo
 ### Buttons on the page
-![image](demo/site1.png)
-![image](demo/site2.png)
+![image](demo/site.png)
 
 ### Admin settings page
 ![image](demo/admin.png)
