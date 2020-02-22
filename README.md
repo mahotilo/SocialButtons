@@ -11,7 +11,8 @@ Based on [Sharingbuttons.io](https://sharingbuttons.io)
 * 2 button styles (sole icon, icon with a name)
 * selectable and sorbable icons set.
 
-## Available Networks
+
+## Available Social
 * Facebook
 * Twitter
 * Telegram
@@ -21,10 +22,7 @@ Based on [Sharingbuttons.io](https://sharingbuttons.io)
 * LinkedIn
 * Reddit
 * XING
-
-and
 * E-Mail
- 
 
 
 ## See also 
