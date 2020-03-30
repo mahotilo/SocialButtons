@@ -1,0 +1,4 @@
+.gitattributes	export-ignore
+
+# Don't export the screenshot to the archive zip
+demo	export-ignore
