@@ -30,6 +30,7 @@ class SocialButtons{
 			.SocialButtons {
 				text-align: center;
 				display: table;
+				margin: 0 auto;
 			}
 			.SocialButtons .resp-sharing-button__icon svg {
 				width: '.$height.';
@@ -61,7 +62,7 @@ class SocialButtons{
 		case 'Telegram' : 
 		$HTML .= '
 		<!-- Sharingbutton Telegram -->
-		<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text='.$title.'&amp;url='.$url.'" target="_blank" rel="noopener" aria-label="">
+		<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text='.$title.'&amp;url='.$url.'" target="_blank" rel="noopener" aria-label="Telegram">
 			<div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--'.$size.'">
 				<div aria-hidden="true" class="resp-sharing-button__icon'.$sc_style.'">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -84,7 +85,7 @@ class SocialButtons{
 		case 'WhatsApp' : 
 		$HTML .= '
 		<!-- Sharingbutton WhatsApp -->
-		<a class="resp-sharing-button__link" href="whatsapp://send?text='.$title.'%20'.$url.'" target="_blank" rel="noopener" aria-label="">
+		<a class="resp-sharing-button__link" href="whatsapp://send?text='.$title.'%20'.$url.'" target="_blank" rel="noopener" aria-label="WhatsApp">
 			<div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--'.$size.'">
 				<div aria-hidden="true" class="resp-sharing-button__icon'.$sc_style.'">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -106,7 +107,7 @@ class SocialButtons{
 		case 'Facebook' : 
 		$HTML .= '
 		<!-- Sharingbutton Facebook -->
-		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u='.$url.'" target="_blank" rel="noopener" aria-label="">
+		<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u='.$url.'" target="_blank" rel="noopener" aria-label="Facebook">
 			<div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--'.$size.'">
 				<div aria-hidden="true" class="resp-sharing-button__icon'.$sc_style.'">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -131,7 +132,7 @@ class SocialButtons{
 		case 'Twitter' : 
 		$HTML .= '
 		<!-- Sharingbutton Twitter -->
-		<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text='.$title.'&amp;url='.$url.'" target="_blank" rel="noopener" aria-label="">
+		<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text='.$title.'&amp;url='.$url.'" target="_blank" rel="noopener" aria-label="Twitter">
 			<div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--'.$size.'">
 				<div aria-hidden="true" class="resp-sharing-button__icon'.$sc_style.'">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -156,7 +157,7 @@ class SocialButtons{
 		case 'Pinterest' : 
 		$HTML .= '
 		<!-- Sharingbutton Pinterest -->
-		<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url='.$url.'&amp;media='.$url.'&amp;description='.$title.'" target="_blank" rel="noopener" aria-label="">
+		<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url='.$url.'&amp;media='.$url.'&amp;description='.$title.'" target="_blank" rel="noopener" aria-label="Pinterest">
 			<div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--'.$size.'">
 				<div aria-hidden="true" class="resp-sharing-button__icon'.$sc_style.'">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -278,7 +279,7 @@ class SocialButtons{
 		case 'E-Mail' : 
 		$HTML .= '
 		<!-- Sharingbutton E-Mail -->
-		<a class="resp-sharing-button__link" href="mailto:?subject='.$title.'&amp;body='.$url.'" target="_self" rel="noopener" aria-label="">
+		<a class="resp-sharing-button__link" href="mailto:?subject='.$title.'&amp;body='.$url.'" target="_self" rel="noopener" aria-label="Email">
 			<div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--'.$size.'">
 				<div aria-hidden="true" class="resp-sharing-button__icon'.$sc_style.'">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
