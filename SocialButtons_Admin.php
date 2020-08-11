@@ -15,6 +15,7 @@ class SocialButtons_Admin {
 
 
 		\gp\tool::LoadComponents('droppable, selectable');
+		$admin_url = \gp\tool::GetUrl('Admin_SocialButtons');
 		
 		$page->jQueryCode .= '
 			$(document).ready(function() {
