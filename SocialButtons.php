@@ -132,7 +132,7 @@ class SocialButtons{
 		case 'Twitter' : 
 		$HTML .= '
 		<!-- Sharingbutton Twitter -->
-		<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text='.$title.'&amp;url='.$url.'" target="_blank" rel="noopener" aria-label="Twitter">
+		<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet?text='.$title.'&amp;url='.$url.'" target="_blank" rel="noopener" aria-label="Twitter">
 			<div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--'.$size.'">
 				<div aria-hidden="true" class="resp-sharing-button__icon'.$sc_style.'">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
